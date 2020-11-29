@@ -3,8 +3,6 @@ var listFriendsElement = document.querySelector('.amigos')
 
 var playersJson = JSON.parse(localStorage.getItem('playersString'))
 
-console.log(playersJson)
-
 function setPlayersInLobby(){
     for (player of playersJson){
 
