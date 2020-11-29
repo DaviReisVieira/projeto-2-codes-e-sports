@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>E-Sports</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/tela_jogando.css" />
+    <link rel="icon" type="image/png" href="../assets/img/logoEsports.png" />
+  </head>
+  <body>
+    <header>
+      <h1>Jogando</h1>
+    </header>
+    <main>
+      <h1></h1>
+
+      <div class="stopwatch">
+        <div class="circle">
+          <span class="time" id="display">00:00:00</span>
+        </div>
+
+        <div class="controls">
+          <button class="buttonPlay">
+            <img id="playButton" src="../assets/img/play-button.svg" />
+
+            <img id="pauseButton" src="../assets/img/pause-button.svg" />
+          </button>
+
+          <button class="buttonReset">
+            <img id="resetButton" src="../assets/img/reset-button.svg" />
+          </button>
+        </div>
+      </div>
+
+      <form action="avaliacao_jogadores.html">
+        <button class="confirm-button">Finalizar Partida</button>
+      </form>
+    </main>
+
+    <script src="../assets/js/tela_jogando.js"></script>
+  </body>
+</html>

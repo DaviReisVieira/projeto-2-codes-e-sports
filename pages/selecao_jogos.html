@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>E-Sports</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/selecao_jogos.css" />
+    <link rel="icon" type="image/png" href="../assets/img/logoEsports.png" />
+  </head>
+  <body>
+    <header>
+      <a class="seta" href="tela_logada.html">Voltar</a>
+      <h1>Escolha o Jogo</h1>
+      <img class="logo" src="../assets/img/logoEsports.png" alt="Logo E-Sports" />
+    </header>
+    <main>
+      <ul>
+        <a
+          href="selecao_jogadores.html"
+          onclick="setGames('Counter-Strike: Global Offensive','csgo_icon.png')"
+        >
+          <li>
+            <div class="game-header">
+              <h3>Counter-Strike: Global Offensive</h3>
+              <img class="time" src="../assets/img/csgo_icon.png" alt="Logo CS" />
+            </div>
+            <h2>5 Amigos Jogando</h2>
+            <h2>250 Players Jogando</h2>
+          </li>
+        </a>
+        <a
+          href="selecao_jogadores.html"
+          onclick="setGames('Grand Theft Auto V: Online','gta_icon.png')"
+        >
+          <li>
+            <div class="game-header">
+              <h3>Grand Theft Auto V: Online</h3>
+              <img class="time" src="../assets/img/gta_icon.png" alt="Logo GTA" />
+            </div>
+            <h2>14 Amigos Jogando</h2>
+            <h2>368 Players Jogando</h2>
+          </li>
+        </a>
+        <a href="selecao_jogadores.html" onclick="setGames('Battlefield 1','btf_icon.png')">
+          <li>
+            <div class="game-header">
+              <h3>Battlefield 1</h3>
+              <img class="time" src="../assets/img/btf_icon.png" alt="Logo BTF" />
+            </div>
+            <h2>3 Amigos Jogando</h2>
+            <h2>157 Players Jogando</h2>
+          </li>
+        </a>
+        <a href="selecao_jogadores.html" onclick="setGames('League of Legends','lol_icon.png')">
+          <li>
+            <div class="game-header">
+              <h3>League of Legends</h3>
+              <img class="time" src="../assets/img/lol_icon.png" alt="Logo LOL" />
+            </div>
+            <h2>1 Amigos Jogando</h2>
+            <h2>220 Players Jogando</h2>
+          </li>
+        </a>
+      </ul>
+    </main>
+
+    <script src="../assets/js/selecao_jogos.js"></script>
+  </body>
+</html>

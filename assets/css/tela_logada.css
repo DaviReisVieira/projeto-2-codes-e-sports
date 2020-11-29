@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+  background-color: #201f24;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.6rem;
+  margin: 0.4rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 12rem;
+  border: 4px solid #8257e5;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0.6rem;
+}
+
+.stars {
+  margin: 0.3rem;
+}
+
+h2 {
+  margin: 0.6rem;
+}
+
+.checked {
+  color: orange;
+}
+
+.games {
+  margin: 0.5rem;
+  display: flex;
+}
+
+.games img {
+  margin: 0.12rem;
+  width: 2.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 0.6rem;
+  border: none;
+  padding: 0.5rem 0.5rem 0.5rem;
+  background: #8257e5;
+  transition: 0.1s;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+a:hover {
+  background: #3a2766;
+}

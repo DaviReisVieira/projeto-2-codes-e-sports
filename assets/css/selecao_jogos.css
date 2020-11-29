@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  background-color: #201f24;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+  align-items: center;
+  min-height: 2rem;
+  background-color: #6544b3;
+}
+
+.logo {
+  width: 2rem;
+  margin-bottom: 0.1rem;
+}
+
+.seta {
+  margin-left: 0.3rem;
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: white;
+}
+.seta:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+  width: 0;
+  height: 0;
+  border-top: 0.4rem solid transparent;
+  border-bottom: 0.4rem solid transparent;
+  border-right: 0.4rem solid white;
+}
+
+main {
+  margin-top: 2.5rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  background-color: white;
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  color: black;
+  padding-bottom: 0.1rem;
+}
+
+.game-header {
+  min-height: 2rem;
+  padding: 0.2rem;
+  background-color: #b59fea;
+  font-weight: 700;
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+
+li h2 {
+  margin: 0.4rem;
+}
+
+li img {
+  margin-left: 0.4rem;
+  border-radius: 50%;
+  width: 2rem;
+}

@@ -1,0 +1,88 @@
+html,
+body {
+  height: 100%;
+  background-color: #201f24;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+header {
+  font-weight: 700;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.2rem;
+  align-items: center;
+  min-height: 2rem;
+  background-color: #6544b3;
+}
+
+main {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+main h1 {
+  font-weight: 700;
+  margin: 0.8rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  place-content: space-between;
+  background-color: white;
+  margin: 0.3rem;
+  padding: 0.8rem;
+  border-radius: 0.25rem;
+}
+
+li h2 {
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+
+li i {
+  color: black;
+}
+
+.checked {
+  color: orange;
+}
+
+.confirm-button {
+  width: 60%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 0.8rem;
+  border: none;
+  padding: 0.5rem;
+  background: #8257e5;
+  transition: 0.1s;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.confirm-button:hover {
+  background: #3a2766;
+}
+
+a {
+  text-decoration: none;
+}
+
+#share-buttons img {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}

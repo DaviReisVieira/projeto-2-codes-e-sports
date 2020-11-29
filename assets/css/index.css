@@ -1,0 +1,64 @@
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  -webkit-animation: fadein 2s;
+  white-space: break-spaces;
+  background-color: #201f24;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 20rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+input {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seta {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.seta:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+  width: 0;
+  height: 0;
+
+  border-top: 0.4rem solid transparent;
+  border-bottom: 0.4rem solid transparent;
+  border-left: 0.4rem solid white;
+}

@@ -1,0 +1,98 @@
+html,
+body {
+  height: 100%;
+  background-color: #201f24;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+header {
+  font-weight: 700;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.2rem;
+  align-items: center;
+  min-height: 2rem;
+  background-color: #6544b3;
+}
+
+main {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+main h1 {
+  text-align: center;
+  font-weight: 700;
+  margin: 0.8rem;
+  font-size: 32px;
+}
+
+.stopwatch {
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 23px;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 240px;
+  width: 240px;
+
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+.time {
+  font-size: 48px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+
+  width: 187px;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+
+#playButton {
+  display: block;
+}
+
+#pauseButton {
+  display: none;
+}
+
+.confirm-button {
+  width: 90%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+  border: none;
+  padding: 0.7rem;
+  background: #8257e5;
+  transition: 0.1s;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.confirm-button:hover {
+  background: #3a2766;
+}
