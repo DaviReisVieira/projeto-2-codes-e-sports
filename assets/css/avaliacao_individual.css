@@ -84,6 +84,11 @@ input#rate-5:checked ~ label {
   text-shadow: 0 0 20px #952;
 }
 
+input#rate-1:checked ~ label {
+  color: rgb(214, 55, 55);
+  text-shadow: 0 0 20px rgb(255, 0, 0);
+}
+
 .confirm-button {
   font-weight: 700;
   color: white;
